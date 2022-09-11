@@ -1,0 +1,16 @@
+import java.util.*;
+class java3{
+    public static void main(String args[]){
+        Scanner sr= new Scanner(System.in);
+        System.out.println("Please enter quantity");
+        int quant= sr.nextInt();
+        double discount;
+        if((quant*100)>1000){
+            discount= (quant*100)-((quant*100)*.1);
+            System.out.println(discount);
+        }
+        else{
+            System.out.println(quant*100);
+        }
+    }
+}

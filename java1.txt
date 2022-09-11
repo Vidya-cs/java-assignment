@@ -1,0 +1,15 @@
+import java.util.*;
+class java1{
+    public static void main(String args[]){
+        Scanner sr= new Scanner(System.in);
+        System.out.println("Enter the value of length and breadth");
+        double l= sr.nextDouble();
+        double b= sr.nextDouble();
+        if(l==b){
+            System.out.println("The given sides are of square");
+        }
+        else{
+            System.out.println("Not square");
+        }
+    }
+}

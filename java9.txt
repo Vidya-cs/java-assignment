@@ -1,0 +1,13 @@
+import java.util.*;
+class java9{
+    public static void main(String args[]){
+        Scanner sr= new Scanner(System.in);
+        char c= sr.next().charAt(0);
+        if(c=='y'||c=='Y'){
+            System.out.println("Ok! You can give exams");
+        }
+        else{
+            System.out.println("Take rest now you can give your exams later");
+        }
+    }
+}

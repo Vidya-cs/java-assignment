@@ -1,0 +1,36 @@
+import java.util.*;
+class java6{
+    public static void main(String args[]){
+        Scanner sr= new Scanner(System.in);
+        int age1= sr.nextInt();
+        int age2= sr.nextInt();
+        int age3= sr.nextInt();
+        if(age1>age2 && age1>age3){
+            System.out.println(age1+" is oldest");              
+            if(age2>age3){
+                System.out.println(age3+" is youngest");
+            }
+            else{
+                System.out.println(age2+" is youngest");
+            }
+        }
+        if(age2>age1 && age2>age3){
+            System.out.println(age2+" is oldest");              
+            if(age1>age3){
+                System.out.println(age3+" is youngest");
+            }
+            else{
+                System.out.println(age1+" is youngest");
+            }
+        }
+        else{
+            System.out.println(age3+" is oldest");              
+            if(age1>age2){
+                System.out.println(age2+" is youngest");
+            }
+            else{
+                System.out.println(age1+" is youngest");
+            }  
+        }
+    }
+}

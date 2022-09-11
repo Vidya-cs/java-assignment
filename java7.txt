@@ -1,0 +1,13 @@
+import java.util.*;
+class java7{
+    public static void main(String args[]){
+        Scanner sr= new Scanner(System.in);
+        int x= sr.nextInt();
+        if(x<0){
+            System.out.println(x*-1);
+        }
+        else{
+            System.out.println(x);
+        }
+    }
+}

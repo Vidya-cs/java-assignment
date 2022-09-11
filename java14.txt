@@ -1,0 +1,15 @@
+import java.util.*;
+class java14{
+    public static void main(String args[]){
+        Scanner sr= new Scanner(System.in);
+        System.out.println("Please enter 4 digit number");;
+        int x= sr.nextInt();
+        int rem, sum=0;
+        while(x!=0){
+            rem= x%10;
+            sum=sum*10 +rem;
+            x=x/10;
+        }
+        System.out.println(sum);
+    }
+}

@@ -1,0 +1,17 @@
+import java.util.*;
+class java8{
+    public static void main(String args[]){
+        Scanner sr= new Scanner(System.in);
+        System.out.println("Enter classes held then classes taken");
+        double held= sr.nextInt();
+        double attended= sr.nextInt();
+        double perc=0.0;
+        perc= (double) ((attended/held)*100);
+        if(perc<75.0){
+            System.out.printf("Your attendance is only %.2f You can't give exams",perc);
+        }
+        else{
+            System.out.println("You have "+perc+" attendance and you can give exams");
+        }
+    }
+}
